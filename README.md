@@ -1,4 +1,4 @@
-This repository contains some functions for calculating the results of a voting ballot using the (Condorcet method)[https://en.wikipedia.org/wiki/Condorcet_method]. The original code is taken from [this Rcpp example](http://gallery.rcpp.org/articles/condorcet-voting-with-rcpp/) but the code here does not implement the rcpp Schulze method. 
+This repository contains some functions for calculating the results of a voting ballot using the [Condorcet method](https://en.wikipedia.org/wiki/Condorcet_method). The original code is taken from [this Rcpp example](http://gallery.rcpp.org/articles/condorcet-voting-with-rcpp/) but the code here does not implement the rcpp Schulze method. 
 
 The basic functions are in `condorcetmethods.R`. To run a new ballot, edit the results in `ballots.csv` and then run the `run_vote.R` script to see the results. NOTE: Be sure to add a final end line return to the CSV file if saving from Excel in order for R to read it in properly.
 
